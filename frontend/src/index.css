@@ -1,0 +1,142 @@
+/*
+Paleta
+#5B0888 dark
+#713ABE
+#9D76C1
+#E5CFF7 lilac
+*/
+
+*{
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary{
+   background-color: #E5CFF7 !important;
+}
+
+.btn.btn-primary{
+    background-color: #713ABE;
+    outline: #713ABE;
+    border: #713ABE;
+}
+
+.btn.btn-primary:hover{
+  background-color: #9D76C1;
+  outline: #9D76C1;
+  border: #9D76C1;
+  color: black;
+}
+
+.btn.btn-secondary{
+  background-color: #E5CFF7;
+  outline: #E5CFF7;
+  border: #E5CFF7;
+  color: black;
+}
+
+.btn.btn-secondary:hover{
+background-color: #9D76C1;
+outline: #9D76C1;
+border: #9D76C1;
+}
+
+.btn.btn-danger{
+  background-color: rgb(238, 104, 104);
+  outline: rgb(238, 104, 104);
+  border: rgb(238, 104, 104);
+  color: black;
+}
+
+.btn.btn-danger:hover{
+  background-color: rgb(231, 78, 78);
+  outline: rgb(231, 78, 78);
+  border: rgb(231, 78, 78);
+}
+
+input.form-control{
+  outline: #9D76C1;
+  border: #9D76C1 1px solid;
+}
+
+h1{
+  font-size: 2rem;
+  color: #5B0888;
+}
+h2{
+  font-size: 1.6rem;
+}
+
+.row>*{
+  padding: 0 !important;
+}
+
+a{
+  color: #5B0888;
+}
+
+.banner{
+  height: 50vh !important;
+  background-color: #9D76C1;
+  color: #E5CFF7;
+  text-align: center;
+}
+
+.banner-text{
+    margin-top: 30px;
+     padding: 0px 5% !important ;
+}
+
+.banner-logo{
+  width: 20%;
+  margin-top: 30px;
+}
+
+.banner-img{
+  height: 50vh !important;
+  background-color: #713ABE;
+}
+
+.banner-img {
+  background-image: url('../public/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card{
+  width: 20vw;
+  margin: 2rem;
+  border: #713ABE 1px solid;
+}
+
+.card ul li.card-title{
+  font-size: 1.1rem;
+  background-color: #E5CFF7;
+}
+
+.card ul li span{
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+  .banner{
+    height: 30vh !important;
+  }
+
+  .card{
+    width: 90vw;
+  }
+}
